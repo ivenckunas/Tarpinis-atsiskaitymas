@@ -1,0 +1,16 @@
+@mixin mid-text-foto-style {
+  .text {
+    min-height: 550px;
+    width: 100%;
+
+    h2,
+    p {
+      padding: 0px 50px;
+    }
+  }
+
+  .foto {
+    height: 500px;
+    width: 100%;
+  }
+}

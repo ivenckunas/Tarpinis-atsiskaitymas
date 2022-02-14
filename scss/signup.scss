@@ -1,0 +1,30 @@
+.sign-up {
+  width: 100%;
+
+  input {
+    margin-right: 15px;
+    margin-top: 50px;
+    padding: 15px;
+    padding: 10px 5px;
+    min-width: 500px;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 1.5em;
+  }
+  button {
+    color: white;
+    background: #007bff;
+    margin-top: 50px;
+    padding: 15px;
+    min-width: 200px;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 1.5em;
+    transition: 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      background: #0060c7;
+    }
+  }
+}

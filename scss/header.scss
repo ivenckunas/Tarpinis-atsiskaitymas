@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+  div {
+    width: auto;
+    display: inline-block;
+    padding: 5px 200px;
+  }
+
+  h2 {
+    padding-top: 10px;
+    font-weight: 400;
+  }
+  button {
+    font-size: 1.1em;
+    background: #1988ff;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    border-style: none;
+    transition: 0.2s;
+
+    &:hover {
+      cursor: pointer;
+      background: #0060c7;
+    }
+  }
+}

@@ -1,0 +1,125 @@
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+
+    div {
+      margin: 0px 0px;
+      padding: 10px;
+    }
+  }
+
+  main {
+    width: 100%;
+
+    div h1 {
+      width: 80%;
+      font-size: 2.5em;
+    }
+    .sign-up {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 20px;
+
+      button {
+        width: 90%;
+        margin: 15px auto;
+      }
+
+      input {
+        padding: 15px 0px;
+        min-width: 90%;
+        margin-right: 0px;
+      }
+    }
+  }
+  article .top-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    div {
+      margin: 0;
+      padding: 50px;
+    }
+  }
+
+  .mid-container .mid-top {
+    flex-direction: column-reverse;
+
+    @include mid-text-foto-style;
+  }
+
+  .mid-container .mid-mid {
+    display: flex;
+    flex-direction: column;
+
+    @include mid-text-foto-style;
+  }
+
+  .mid-container .mid-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+
+    @include mid-text-foto-style;
+  }
+
+  .bottom-container .testimonials {
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    div {
+      height: auto;
+      width: 100%;
+      padding: 50px;
+    }
+  }
+
+  .bot {
+    width: 100%;
+    min-height: 500px;
+
+    div h2 {
+      width: 80%;
+      font-size: 2em;
+    }
+    .sign-up {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 20px;
+
+      button {
+        width: 90%;
+        margin: 15px auto;
+      }
+
+      input {
+        padding: 15px 0px;
+        min-width: 90%;
+        margin-right: 0px;
+      }
+    }
+  }
+
+  footer {
+    min-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+
+    .footer-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding-bottom: 50px;
+    }
+  }
+}
