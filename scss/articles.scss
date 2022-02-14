@@ -1,20 +1,17 @@
-.top {
-  display: flex;
-  justify-content: space-around;
-  background-color: #f1f1f1;
-}
-
 .top-container {
+  text-align: center;
   display: flex;
-  width: 80%;
+  margin: 0 150px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 
   div {
-    padding: 80px;
-    margin: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
+
   img {
     height: 100px;
   }
@@ -151,7 +148,8 @@
     width: 80%;
     display: flex;
     justify-content: center;
-    padding: 80px 80px;
+    padding-bottom: 80px;
+    padding-top: 30px;
 
     div {
       display: flex;

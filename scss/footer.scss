@@ -5,13 +5,17 @@ footer {
 
   .footer-left ul {
     display: flex;
-    color: #007bff;
     font-size: 1.2em;
     padding-bottom: 20px;
 
     li {
       margin: 5px;
       list-style: none;
+
+      a {
+        text-decoration: none;
+        color: #007bff;
+      }
     }
   }
 
