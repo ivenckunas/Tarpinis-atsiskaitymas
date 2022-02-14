@@ -15,6 +15,11 @@ footer {
       a {
         text-decoration: none;
         color: #007bff;
+
+        &:hover {
+          cursor: pointer;
+          color: #0060c7;
+        }
       }
     }
   }
@@ -25,5 +30,10 @@ footer {
 
   .footer-right img {
     width: 40px;
+    transition: 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
   }
 }
